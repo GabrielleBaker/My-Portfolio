@@ -257,14 +257,14 @@ img {
 
 /* First breakpoint - Tablet */
 @media only screen and (max-width: 900px) {
-    .grid-container {
-        grid-template-areas:
-            'nav nav nav nav nav nav'
-    'header header header header header header'
-    
-    'main main main main main main'
-    'footer footer footer footer footer footer';
-    }
+  .grid-container {
+      grid-template-areas:
+          'nav nav nav nav nav nav'
+          'header header header header header header'
+          'aside aside aside aside aside aside'
+          'main main main main main main'
+          'footer footer footer footer footer footer';
+  }
 
     img {
         max-width: 80%;
@@ -274,14 +274,14 @@ img {
 
 /* Second breakpoint - Mobile */
 @media only screen and (max-width: 600px) {
-    .grid-container {
-        grid-template-areas:
-           'nav nav nav nav nav nav'
-    'header header header header header header'
-    
-    'main main main main main main'
-    'footer footer footer footer footer footer';
-    }
+  .grid-container {
+      grid-template-areas:
+          'nav nav nav nav nav nav'
+          'header header header header header header'
+          'aside aside aside aside aside aside'
+          'main main main main main main'
+          'footer footer footer footer footer footer';
+  }
 
     img {
         max-width: 50%;
