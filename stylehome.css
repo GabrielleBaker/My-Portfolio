@@ -163,12 +163,16 @@ img {
             'aside aside aside aside aside aside'
             'main main main main main main'
             'footer footer footer footer footer footer';
+            max-width: 90%;
     }
+    
 
     img {
         max-width: 80%;
         margin: 1em auto;
     }
+
+    
 }
 
 /* Second breakpoint - Mobile */
@@ -180,10 +184,11 @@ img {
             'aside aside aside aside aside aside'
             'main main main main main main'
             'footer footer footer footer footer footer';
+            max-width: 90%;
     }
 
     img {
-        max-width: 50%;
+        max-width: 70%;
         margin: 1em auto;
     }
 
